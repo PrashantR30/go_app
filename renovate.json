@@ -1,14 +1,14 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",	
-    "branchPrefix": "$username/",
-    "username": "$username",
-    "gitAuthor": "$name <$email.com>",
+    "branchPrefix": "PrashantR30/",
+    "username": "PrashantR30",
+    "gitAuthor": "Prashant <pramhit@mirantis.com>",
     "onboarding": true,
     "platform": "github",
     "forkProcessing": "enabled",
     "extends": ["config:recommended"],
     "repositories": [
-      "$username/$repository"
+      "PrashantR30/go_app"
     ],
     "golang": {
       "enabled": true
